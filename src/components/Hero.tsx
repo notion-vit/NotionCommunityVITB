@@ -26,8 +26,8 @@ const Hero: React.FC<HeroProps> = ({ isMenuOpen = false }) => {
         </div>
       </div>
 
-      <h1 className="text-3xl md:text-5xl lg:text-4xl font-small text-center mb-12 italic">
-        Welcome to your all-in-one workspace for organizing, planning, and creating!
+      <h1 className="text-3xl md:text-5xl lg:text-4xl font-small text-center mb-12 ">
+          Work..Learn..Grow..Connect
       </h1>
     </section>
   )
