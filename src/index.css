@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-enter {
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+/* Dark mode styles for mobile menu */
+.dark-mobile-menu {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.dark-mobile-menu a {
+  @apply text-gray-400 hover:text-white transition-colors;
+}
+
+.dark-mobile-menu .border-color {
+  @apply border-gray-800;
+}
+
