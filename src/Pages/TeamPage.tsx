@@ -544,14 +544,14 @@ const TeamPage: React.FC = () => {
             "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb5ee4000e3ef7288e/view?project=67cb1a5d0022c5a29d3c&mode=admin",
           linkedIn: "https://www.linkedin.com/in/ritika-singh-838a33276",
         },
-        {
-          id: 4,
-          name: "Snigdha Josh",
-          role: "Junior Associate",
-          image:
-            "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb5eaf0033d126c0a2/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-          linkedIn: "https://www.linkedin.com/in/snigdha-joshi-4a4b76311",
-        },
+        // {
+        //   id: 4,
+        //   name: "Snigdha Josh",
+        //   role: "Junior Associate",
+        //   image:
+        //     "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb5eaf0033d126c0a2/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        //   linkedIn: "https://www.linkedin.com/in/snigdha-joshi-4a4b76311",
+        // },
         {
           id: 5,
           name: "Muskan Pathak",
