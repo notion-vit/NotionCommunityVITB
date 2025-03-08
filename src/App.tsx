@@ -53,7 +53,7 @@ function App() {
             <div className="flex items-center space-x-3 mb-8">
               <div className="w-12 h-12 rounded-full overflow-hidden">
                 <img
-                  src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4af800319cfbdf38/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+                  src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb1b220015a046dfa6/view?project=67cb1a5d0022c5a29d3c&mode=admin"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
