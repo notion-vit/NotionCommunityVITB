@@ -28,7 +28,7 @@ const SubmitPhotoModal: React.FC<SubmitPhotoModalProps> = ({ isOpen, onClose }) 
 
   const handleEmailClick = () => {
     window.location.href =
-      "mailto:notion@vitbhopal.ac.in?subject=Photo%20Submission&body=Hello%2C%0A%0AI%20would%20like%20to%20submit%20photos%20for%20the%20gallery.%0A%0ABest%20regards"
+      "mailto:vishalojha628@gmail.com?subject=Photo%20Submission&body=Hello%2C%0A%0AI%20would%20like%20to%20submit%20photos%20for%20the%20gallery.%0A%0ABest%20regards"
     setShowThankYou(true)
     onClose()
   }

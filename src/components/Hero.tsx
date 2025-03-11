@@ -10,7 +10,7 @@ const Hero: React.FC<HeroProps> = ({ isMenuOpen = false }) => {
   return (
     <section className="pt-32 pb-12 px-6 md:px-12 lg:px-24 flex flex-col items-center">
       <h1
-        className={`text-3xl md:text-4xl lg:text-6xl font-medium text-center mb-12 italic ${isMenuOpen ? "opacity-0 md:opacity-100" : "opacity-100"} transition-opacity duration-300`}
+        className={`text-3xl md:text-4xl lg:text-6xl font-medium text-center mb-12 inter ${isMenuOpen ? "opacity-0 md:opacity-100" : "opacity-100"} transition-opacity duration-300`}
       >
         Notion Community, VIT Bhopal University
       </h1>
@@ -27,7 +27,7 @@ const Hero: React.FC<HeroProps> = ({ isMenuOpen = false }) => {
       </div>
 
       <h1 className="text-3xl md:text-5xl lg:text-4xl font-small text-center mb-12 ">
-          Work..Learn..Grow..Connect
+          Work. Learn. Grow. Connect
       </h1>
     </section>
   )

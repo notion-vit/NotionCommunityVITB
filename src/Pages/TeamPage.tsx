@@ -33,14 +33,14 @@ const TeamPage: React.FC = () => {
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4a89001ac43cf4da/view?project=67cb1a5d0022c5a29d3c&mode=admin",
       linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
     },
-    {
-      id: 2,
-      name: "Dr. Vishal kumar Ojha",
-      role: "Faculty Coordinator",
-      image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4e3c0023cd999bad/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-      linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
-    },
+    // {
+    //   id: 2,
+    //   name: "Dr. Vishal kumar Ojha",
+    //   role: "Faculty Coordinator",
+    //   image:
+    //     "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4e3c0023cd999bad/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+    //   linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
+    // },
   ]
 
   // Board Members
@@ -591,7 +591,7 @@ const TeamPage: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         {/* Faculty Coordinators Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-medium italic text-center mb-2">Faculty Coordinators</h2>
+          <h2 className="text-3xl font-medium inter text-center mb-2">Faculty Coordinators</h2>
           <p className="text-center text-gray-600 mb-10">The guiding light of the Notion Community.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
@@ -623,7 +623,7 @@ const TeamPage: React.FC = () => {
 
         {/* Board Members Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-medium italic text-center mb-2">Board Members</h2>
+          <h2 className="text-3xl font-medium inter text-center mb-2">Board Members</h2>
           <p className="text-center text-gray-600 mb-10">The leaders steering the community forward.</p>
 
           <div className="flex flex-wrap justify-center gap-8">
@@ -655,7 +655,7 @@ const TeamPage: React.FC = () => {
 
         {/* Administrators Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-medium italic text-center mb-2">Administrators</h2>
+          <h2 className="text-3xl font-medium inter text-center mb-2">Administrators</h2>
           <p className="text-center text-gray-600 mb-10">The leaders steering the community forward.</p>
 
           <div className="flex flex-wrap justify-center gap-6">
@@ -696,7 +696,7 @@ const TeamPage: React.FC = () => {
                     activeTeam === team.id
                       ? "bg-black text-white"
                       : "bg-white/80 backdrop-blur-sm text-black hover:bg-gray-100"
-                  } italic font-medium`}
+                  } inter font-medium`}
                   onClick={() => setActiveTeam(team.id)}
                 >
                   {team.name}

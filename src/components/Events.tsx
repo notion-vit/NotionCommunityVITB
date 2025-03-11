@@ -157,7 +157,7 @@ const Events: React.FC = () => {
   if (selectedEvent) {
     return (
       <section className="py-16 px-6 md:px-12 lg:px-24 relative">
-        <h2 className="text-4xl font-medium italic text-center mb-16">Our Events</h2>
+        <h2 className="text-4xl font-medium Inter text-center mb-16">Our Events</h2>
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div className="relative overflow-hidden rounded-lg">
@@ -188,7 +188,7 @@ const Events: React.FC = () => {
               <p className="text-gray-600 leading-relaxed">{selectedEvent.longDescription}</p>
               <Link
                 to="/photo-gallery"
-                className="inline-block px-6 py-2 border-2 border-black rounded-md hover:bg-black hover:text-white transition-colors italic"
+                className="inline-block px-6 py-2 border-2 border-black rounded-md hover:bg-black hover:text-white transition-colors inter"
               >
                 Event Photographs
               </Link>
@@ -196,7 +196,7 @@ const Events: React.FC = () => {
           </div>
           <button
             onClick={() => setSelectedEvent(null)}
-            className="mt-12 mx-auto block px-6 py-2 border-b-2 border-black hover:border-gray-600 transition-colors italic"
+            className="mt-12 mx-auto block px-6 py-2 border-b-2 border-black hover:border-gray-600 transition-colors inter"
           >
             Back
           </button>
@@ -217,7 +217,7 @@ const Events: React.FC = () => {
             <p className="text-lg leading-relaxed">{currentEvent.shortDescription}</p>
             <button
               onClick={() => setSelectedEvent(currentEvent)}
-              className="text-lg border-b-2 border-black hover:border-gray-600 transition-colors italic inline-flex items-center"
+              className="text-lg border-b-2 border-black hover:border-gray-600 transition-colors inter inline-flex items-center"
             >
               SEE MORE →
             </button>

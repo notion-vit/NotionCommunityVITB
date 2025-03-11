@@ -23,14 +23,14 @@ const TeamSection: React.FC = () => {
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4a89001ac43cf4da/view?project=67cb1a5d0022c5a29d3c&mode=admin",
       linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
     },
-    {
-      id: 2,
-      name: "Dr. Vishal kumar Ojha",
-      role: "Faculty Coordinator",
-      image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4e3c0023cd999bad/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-      linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
-    },
+    // {
+    //   id: 2,
+    //   name: "Dr. Vishal kumar Ojha",
+    //   role: "Faculty Coordinator",
+    //   image:
+    //     "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4e3c0023cd999bad/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+    //   linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
+    // },
   ]
 
   // Board Members
@@ -112,7 +112,7 @@ const TeamSection: React.FC = () => {
 
       {/* Faculty Coordinators */}
       <div className="pt-6 mb-25">
-        <h3 className="text-2xl font-medium italic text-center mb-8">Faculty Coordinator</h3>
+        <h3 className="text-2xl font-medium inter text-center mb-8">Faculty Coordinator</h3>
         {/* <p className="text-sm text-gray-600 max-w-2xl mx-auto pb-4" text-center>
         The guiding light of the Notion Community.
         </p> */}
@@ -146,7 +146,7 @@ const TeamSection: React.FC = () => {
 
       {/* Board Members */}
       <div className="mb-16">
-        <h3 className="text-2xl font-medium italic text-center mb-8 pt-6">Board Members</h3>
+        <h3 className="text-2xl font-medium inter text-center mb-8 pt-6">Board Members</h3>
         {/* <p className="text-sm text-gray-600 max-w-2xl mx-auto pb-4" text-center>
         The leaders steering the community forward.
         </p> */}
@@ -179,7 +179,7 @@ const TeamSection: React.FC = () => {
 
       {/* Administrators */}
       <div className="mb-16">
-        <h3 className="text-2xl font-medium italic text-center mb-8">Administrators</h3>
+        <h3 className="text-2xl font-medium inter text-center mb-8">Administrators</h3>
         {/* <p className="text-sm text-gray-600 max-w-2xl mx-auto pb-4" text-center>
          The leaders steering the community forward
         </p> */}

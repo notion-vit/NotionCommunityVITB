@@ -174,8 +174,8 @@ const FAQPage: React.FC = () => {
         <div className="mt-16 p-8 bg-white/80 backdrop-blur-sm rounded-lg shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col items-center justify-center">
-              <h2 className="text-4xl font-bold mb-4 italic">Questions</h2>
-              <p className="text-xl mb-6 italic">Reach out</p>
+              <h2 className="text-4xl font-bold mb-4 inter">Questions</h2>
+              <p className="text-xl mb-6 inter">Reach out</p>
               <img
                 src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb63cf002b66851913/view?project=67cb1a5d0022c5a29d3c&mode=admin"
                 alt="Person with questions"
@@ -187,7 +187,7 @@ const FAQPage: React.FC = () => {
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-lg italic mb-2" htmlFor="firstName">
+                    <label className="block text-lg inter mb-2" htmlFor="firstName">
                       First Name
                     </label>
                     <input
@@ -198,7 +198,7 @@ const FAQPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <label className="block text-lg italic mb-2" htmlFor="lastName">
+                    <label className="block text-lg inter mb-2" htmlFor="lastName">
                       Last Name
                     </label>
                     <input
@@ -211,7 +211,7 @@ const FAQPage: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-lg italic mb-2" htmlFor="vitEmail">
+                    <label className="block text-lg inter mb-2" htmlFor="vitEmail">
                       Vit Email ID
                     </label>
                     <input
@@ -222,7 +222,7 @@ const FAQPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <label className="block text-lg italic mb-2" htmlFor="query">
+                    <label className="block text-lg inter mb-2" htmlFor="query">
                       Querry
                     </label>
                     <input

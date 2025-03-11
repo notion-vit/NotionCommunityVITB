@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-8 border-b pb-8 mb-6">
           {/* Left Column */}
           <div>
-            <h3 className="text-2xl mb-4 font-medium italic">Notion Community, VIT Bhopal</h3>
+            <h3 className="text-2xl mb-4 font-medium inter">Notion Community, VIT Bhopal</h3>
             <p className="text-gray-600 leading-relaxed">
               Notion Community is a group of enthusiastic learners focused on productivity, collaboration, and knowledge
               sharing through Notion. We aim to create a space where students can learn, organize, and grow.
@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           </div>
           {/* Middle Column */}
           <div className="md:border-l md:border-r px-8">
-            <h3 className="text-2xl mb-4 font-medium italic">Updates</h3>
+            <h3 className="text-2xl mb-4 font-medium inter">Updates</h3>
             <div className="space-y-6">
               <div>
                 <h4 className="font-medium mb-2">Events and Workshops</h4>
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
           </div>
           {/* Right Column */}
           <div>
-            <h3 className="text-2xl mb-4 font-medium italic">Contact Us</h3>
+            <h3 className="text-2xl mb-4 font-medium inter">Contact Us</h3>
             <div className="flex space-x-4">
               <a
                 href="https://www.instagram.com/notion.vit/"
