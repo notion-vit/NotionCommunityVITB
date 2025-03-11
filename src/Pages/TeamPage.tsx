@@ -594,7 +594,7 @@ const TeamPage: React.FC = () => {
           <h2 className="text-3xl font-medium inter text-center mb-2">Faculty Coordinators</h2>
           <p className="text-center text-gray-600 mb-10">The guiding light of the Notion Community.</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
+          <div className="flex justify-center">
             {facultyCoordinators.map((faculty) => (
               <div
                 key={faculty.id}
@@ -687,22 +687,24 @@ const TeamPage: React.FC = () => {
 
         {/* Team Categories Section */}
         <section className="mb-10">
+          <h2 className="text-3xl font-medium inter text-center mb-6">{activeTeamData.name}</h2>
           <div className="flex justify-center">
-            <nav className="grid grid-cols-2 md:grid-cols-4 lg:flex lg:flex-row gap-4 max-w-6xl">
-              {teamCategories.map((team) => (
-                <button
-                  key={team.id}
-                  className={`px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 transform hover:scale-105 ${
-                    activeTeam === team.id
-                      ? "bg-black text-white"
-                      : "bg-white/80 backdrop-blur-sm text-black hover:bg-gray-100"
-                  } inter font-medium`}
-                  onClick={() => setActiveTeam(team.id)}
-                >
-                  {team.name}
-                </button>
-              ))}
-            </nav>
+          <nav className="grid grid-cols-2 md:grid-cols-4 lg:flex lg:flex-row lg:justify-center gap-4 max-w-6xl mx-auto px-4">
+  {teamCategories.map((team) => (
+    <button
+      key={team.id}
+      className={`px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 transform hover:scale-105 ${
+        activeTeam === team.id
+          ? "bg-black text-white"
+          : "bg-white/80 backdrop-blur-sm text-black hover:bg-gray-100"
+      } inter font-medium`}
+      onClick={() => setActiveTeam(team.id)}
+    >
+      {team.name}
+    </button>
+  ))}
+</nav>
+
           </div>
         </section>
 

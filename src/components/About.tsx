@@ -19,12 +19,12 @@ const About: React.FC = () => {
           <div className="flex space-x-6">
             <Link
               to="/about"
-              className="bg-black text-white px-6 py-3 text-base rounded-md transform transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              className="bg-black text-white px-6 py-3 text-base rounded-xl transform transition-all duration-300 hover:scale-110 hover:shadow-lg"
             >
               View More
             </Link>
             <button
-              className="bg-black text-white px-6 py-3 text-base rounded-md transform transition-all duration-300 hover:scale-110 hover:shadow-lg"
+              className="bg-black text-white px-6 py-3 text-base rounded-xl transform transition-all duration-300 hover:scale-110 hover:shadow-lg"
               onClick={() => setIsModalOpen(true)}
             >
               Join Us

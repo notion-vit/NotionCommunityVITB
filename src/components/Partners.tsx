@@ -40,7 +40,7 @@ const Partners = () => {
       <Marquee speed={40} loop={0}>
         {[...partners, ...partners].map((partner, index) => (
           <div key={index} className="flex flex-col items-center mx-6">
-            <div className="w-48 md:w-56 grayscale hover:grayscale-0 transition duration-300 hover:scale-110">
+            <div className="w-48 md:w-56 transition duration-300 hover:scale-110">
               <img src={partner.logo || "/placeholder.svg"} alt={partner.name} className="w-full h-auto" />
             </div>
           </div>

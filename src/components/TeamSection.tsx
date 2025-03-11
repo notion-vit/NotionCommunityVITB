@@ -117,11 +117,11 @@ const TeamSection: React.FC = () => {
         The guiding light of the Notion Community.
         </p> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
+        <div className="flex justify-center">
           {facultyCoordinators.map((faculty) => (
             <div
               key={faculty.id}
-              className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden w-64 transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden w-64 transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               <div className="h-64 overflow-hidden">
                 <img

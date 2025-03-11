@@ -404,7 +404,7 @@ const PhotoGalleryPage: React.FC = () => {
         {filteredPhotos.map((photo) => (
           <div
             key={photo.id}
-            className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 bg-white/20 backdrop-blur-sm"
+            className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 bg-white/20 backdrop-blur-sm"
             style={{ height: photo.id % 3 === 0 ? "300px" : "200px" }} // Varying heights for visual interest
           >
             <img

@@ -50,10 +50,10 @@ const Events: React.FC = () => {
         "This event, attended by over 200 students, included a hackathon, followed by a talk from Shivansh Garg on marketing, startups, and finance. The event concluded with a hands-on Notion workshop, ensuring students left with valuable knowledge and tools to boost their productivity.",
       image:
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb33a10026802a0fe4/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-        stats: {
-          left: { number: "500+", text: "Community Members" },
-          right: { number: "4.0/5", text: "Event Rating @Luma" },
-        },
+      stats: {
+        left: { number: "500+", text: "Community Members" },
+        right: { number: "4.0/5", text: "Event Rating @Luma" },
+      },
     },
     {
       id: 3,
@@ -65,10 +65,10 @@ const Events: React.FC = () => {
         "On 3rd May, the Notion Community Club hosted Innovision, a highly anticipated technical event attended by over 189 students. The event featured keynote addresses by Dr. Gajendra Purohit and Soumen Banerjee, focusing on academic growth, entrepreneurship, and startups.",
       image:
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb768b0035c6ba5893/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-        stats: {
-          left: { number: "500+", text: "Community Members" },
-          right: { number: "4.3/5", text: "Event Rating @Luma" },
-        },
+      stats: {
+        left: { number: "500+", text: "Community Members" },
+        right: { number: "4.3/5", text: "Event Rating @Luma" },
+      },
     },
     {
       id: 4,
@@ -80,10 +80,10 @@ const Events: React.FC = () => {
         "Held as part of ADVITYA 2024, this technical event attracted over 207 participants and featured guest speakers sharing career insights. The event concluded with a quiz and cash prizes for the winners, making it an engaging experience.",
       image:
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb7692002af9e31f61/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-        stats: {
-          left: { number: "500+", text: "Community Members" },
-          right: { number: "4.8/5", text: "Event Rating @Luma" },
-        },
+      stats: {
+        left: { number: "500+", text: "Community Members" },
+        right: { number: "4.8/5", text: "Event Rating @Luma" },
+      },
     },
     {
       id: 5,
@@ -95,10 +95,10 @@ const Events: React.FC = () => {
         "An educational event with Mr. Prince Sharma on boosting productivity using Notion, followed by poetry and comedy entertainment. This session provided students with valuable insights into Notion's features, combined with entertainment for a memorable experience.",
       image:
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb769a0023c52c8628/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-        stats: {
-          left: { number: "500+", text: "Community Members" },
-          right: { number: "4.2/5", text: "Event Rating @Luma" },
-        },
+      stats: {
+        left: { number: "500+", text: "Community Members" },
+        right: { number: "4.2/5", text: "Event Rating @Luma" },
+      },
     },
     {
       id: 6,
@@ -110,10 +110,10 @@ const Events: React.FC = () => {
         "A quiz competition on AI, technology, and startups, followed by a live concert and cash prizes for winners in December 2023.Conducted via Mentimeter, the event was a fun blend of quizzes and entertainment, attracting a lively audience.",
       image:
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb76a100152baccf3c/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-        stats: {
-          left: { number: "500+", text: "Community Members" },
-          right: { number: "5/5", text: "Event Rating @Luma" },
-        },
+      stats: {
+        left: { number: "500+", text: "Community Members" },
+        right: { number: "5/5", text: "Event Rating @Luma" },
+      },
     },
     {
       id: 7,
@@ -125,10 +125,10 @@ const Events: React.FC = () => {
         "Participants explored AI tools, including ChatGPT prompts, and winners received cash prizes and Notion goodies.A trivia challenge combining AI, technology, and entrepreneurship, attended by over 300 participants with quizzes and live challenges.",
       image:
         "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb76a9000b0478e938/view?project=67cb1a5d0022c5a29d3c&mode=admin",
-        stats: {
-          left: { number: "500+", text: "Community Members" },
-          right: { number: "4.9/5", text: "Event Rating @Luma" },
-        },
+      stats: {
+        left: { number: "500+", text: "Community Members" },
+        right: { number: "4.9/5", text: "Event Rating @Luma" },
+      },
     },
   ]
 
@@ -263,23 +263,25 @@ const Events: React.FC = () => {
       </div>
 
       {/* Navigation Buttons */}
-      <button
-        onClick={prevEvent}
-        disabled={isAnimating}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 p-2 hover:bg-gray-100 rounded-full transition-colors disabled:opacity-50"
-        title="Previous Event"
-      >
-        <ChevronLeft size={24} />
-      </button>
-      
-      <button
-        onClick={nextEvent}
-        disabled={isAnimating}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 p-2 hover:bg-gray-100 rounded-full transition-colors disabled:opacity-50"
-        title="Next Event"
-      >
-        <ChevronRight size={24} />
-      </button>
+      <div className="relative">
+        <button
+          onClick={prevEvent}
+          disabled={isAnimating}
+          className="absolute left-4 md:left-10 top-1/2 transform -translate-y-1/2 p-2 bg-white/80 hover:bg-gray-100 rounded-full transition-colors disabled:opacity-50 shadow-md z-20 w-10 h-10 flex items-center justify-center"
+          title="Previous Event"
+        >
+          <ChevronLeft size={24} />
+        </button>
+
+        <button
+          onClick={nextEvent}
+          disabled={isAnimating}
+          className="absolute right-4 md:right-10 top-1/2 transform -translate-y-1/2 p-2 bg-white/80 hover:bg-gray-100 rounded-full transition-colors disabled:opacity-50 shadow-md z-20 w-10 h-10 flex items-center justify-center"
+          title="Next Event"
+        >
+          <ChevronRight size={24} />
+        </button>
+      </div>
 
       {/* <div className="text-center mt-8">
         <Link
