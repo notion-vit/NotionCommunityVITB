@@ -28,7 +28,6 @@ function ScrollToTop() {
 // Main App component without router
 function AppContent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const location = useLocation()
 
   // Handle body scroll lock when menu is open
   useEffect(() => {
