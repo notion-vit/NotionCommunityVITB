@@ -34,7 +34,7 @@ const About: React.FC = () => {
         </div>
         <div className="md:w-1/5 ml-auto">
           <img
-            src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb304c0025b4708b17/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=500&width=500"
+            src="assets\about_us_img_for_main_page-removebg-preview.png?height=500&width=500"
             alt="Illustration"
             className="w-50 h-80"
           />

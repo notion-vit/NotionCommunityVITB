@@ -34,7 +34,7 @@ const Events: React.FC = () => {
       longDescription:
         "Attended by over 180 students, the 'Build Your Brand Program' on November 26th introduced new students to personal branding. The speakers, Abhishek Kumar (founder of Notion Club) and Rishav Mishra (President of Notion Club) emphasized social media and AI tool usage for personal branding. A quiz on startups and AI further reinforced the concepts. The event empowered students with practical tips to build a strong professional image.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb33ac000a833c1984/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/2.jpg",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.8/5", text: "Event Rating @Luma" },

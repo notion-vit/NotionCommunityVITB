@@ -689,21 +689,20 @@ const TeamPage: React.FC = () => {
         <section className="mb-10">
           <h2 className="text-3xl font-medium inter text-center mb-6">{activeTeamData.name}</h2>
           <div className="flex justify-center">
-          <nav className="grid grid-cols-2 md:grid-cols-4 lg:flex lg:flex-row lg:justify-center gap-4 max-w-6xl mx-auto px-4">
-  {teamCategories.map((team) => (
-    <button
-      key={team.id}
-      className={`px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 transform hover:scale-105 ${
-        activeTeam === team.id
-          ? "bg-black text-white"
-          : "bg-white/80 backdrop-blur-sm text-black hover:bg-gray-100"
-      } inter font-medium`}
-      onClick={() => setActiveTeam(team.id)}
-    >
-      {team.name}
-    </button>
-  ))}
-</nav>
+            <nav className="grid grid-cols-2 md:grid-cols-4 lg:flex lg:flex-row lg:justify-center gap-4 max-w-6xl mx-auto px-4">
+              {teamCategories.map((team) => (
+                <button
+                  key={team.id}
+                  className={`px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 transform hover:scale-105 ${activeTeam === team.id
+                      ? "bg-black text-white"
+                      : "bg-white/80 backdrop-blur-sm text-black hover:bg-gray-100"
+                    } inter font-medium`}
+                  onClick={() => setActiveTeam(team.id)}
+                >
+                  {team.name}
+                </button>
+              ))}
+            </nav>
 
           </div>
         </section>

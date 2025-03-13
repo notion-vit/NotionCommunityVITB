@@ -47,7 +47,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
           <div className="logo z-50">
             <Link to="/" className="flex items-center">
               <img
-                src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb970d0012e75f5bdb/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+                src="assets\logo (2).png"
                 alt="Notion Community Logo"
                 className="h-12 md:h-14 w-auto" // Increased logo size
               />

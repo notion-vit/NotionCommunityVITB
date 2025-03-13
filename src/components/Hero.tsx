@@ -19,7 +19,7 @@ const Hero: React.FC<HeroProps> = ({ isMenuOpen = false }) => {
         {/* Main illustration - student reading */}
         <div className="flex justify-center mb-6">
           <img
-            src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb275200026c6bb2fe/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+            src="assets\treail03-removebg-preview.png"
             alt="Student reading"
             className="w-111 h-120 md:w-92 md:h-102 object-contain"
           />
