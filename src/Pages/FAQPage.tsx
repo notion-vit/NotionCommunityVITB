@@ -15,6 +15,10 @@ const FAQPage: React.FC = () => {
   const categories = ["All", "General", "About Notion", "Recruitment"]
   const [activeCategory, setActiveCategory] = useState("All")
   const [openFAQ, setOpenFAQ] = useState<number | null>(null)
+  const [lastName , setLastname] = useState<string>("")
+  const [firstName , setFirstname] = useState<string>("")
+  const [vitEmail , setVitEmail] = useState<string>("")
+  const [query , setQuery] = useState<string>("")
 
   const faqs: FAQ[] = [
     {
@@ -127,6 +131,29 @@ const FAQPage: React.FC = () => {
     setOpenFAQ(openFAQ === id ? null : id)
   }
 
+  const handleFormSubmit = async(e: React.FormEvent) => {
+    e.preventDefault()
+    async function pushDatabase(){
+      const serverResponse = await fetch('http://localhost:5800/form',{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json",
+        },
+        body:JSON.stringify({
+          firstname: firstName,
+          lastname: lastName,
+          vitemail: vitEmail,
+          query: query
+        })
+      })
+      
+      const serverData = await serverResponse.json();
+      serverData.suc ? alert(serverData.message) : alert(serverData.error);
+    }
+
+    firstName && lastName && vitEmail && query ? pushDatabase() : alert("Please provide all the details to post the query");
+  }
+
   return (
     <div className="container mx-auto px-6 py-32 md:py-40">
       <h1 className="text-4xl font-bold mb-12 text-center">Frequently Asked Questions</h1>
@@ -194,6 +221,9 @@ const FAQPage: React.FC = () => {
                       type="text"
                       id="firstName"
                       className="w-full border-b-2 border-gray-300 focus:border-black outline-none pb-2 bg-transparent"
+                      onChange={(e)=>{
+                        setFirstname(e.target.value);
+                      }}
                     />
                   </div>
 
@@ -205,6 +235,9 @@ const FAQPage: React.FC = () => {
                       type="text"
                       id="lastName"
                       className="w-full border-b-2 border-gray-300 focus:border-black outline-none pb-2 bg-transparent"
+                      onChange={(e)=>{
+                        setLastname(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
@@ -218,6 +251,9 @@ const FAQPage: React.FC = () => {
                       type="email"
                       id="vitEmail"
                       className="w-full border-b-2 border-gray-300 focus:border-black outline-none pb-2 bg-transparent"
+                      onChange={(e)=>{
+                        setVitEmail(e.target.value);
+                      }}
                     />
                   </div>
 
@@ -229,12 +265,16 @@ const FAQPage: React.FC = () => {
                       type="text"
                       id="query"
                       className="w-full border-b-2 border-gray-300 focus:border-black outline-none pb-2 bg-transparent"
+                      onChange={(e)=>{
+                        setQuery(e.target.value);
+                      }}
                     />
                   </div>
                 </div>
 
                 <div className="pt-4">
                   <button
+                    onClick={handleFormSubmit}
                     type="submit"
                     className="w-full bg-blue-500 text-white py-3 rounded-md hover:bg-blue-600 transition"
                   >
@@ -251,4 +291,5 @@ const FAQPage: React.FC = () => {
 }
 
 export default FAQPage
+
 
