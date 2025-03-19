@@ -40,7 +40,7 @@ const TeamSection: React.FC = () => {
       name: "Rishav Mishra",
       role: "President",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4ae0002aaddb8b16/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/Rishav Mishra_23BHI10011_PR & Outreach - Rishav Ramnandan Mishra 23bhi10011.jpg",
       linkedIn: "https://www.linkedin.com/in/rishavmishra002",
     },
     {
@@ -48,7 +48,7 @@ const TeamSection: React.FC = () => {
       name: "Abhishek Kumar",
       role: "Founder",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4af800319cfbdf38/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/Abhishek Kumar _ Operations Team - Abhishek Kumar 23bhi10052.png",
       linkedIn: "https://www.linkedin.com/in/heyabhishekkumar/",
     },
     {
@@ -56,7 +56,7 @@ const TeamSection: React.FC = () => {
       name: "Tejus Gupta",
       role: "Vice-President",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4b240016a9ed2995/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/tejus.png",
       linkedIn:
         "https://www.linkedin.com/in/iamtejusgupta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -69,7 +69,7 @@ const TeamSection: React.FC = () => {
       name: "Saniya Saw",
       role: "(Secretary)",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4bdf003da61727b3/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/saniya.png",
       linkedIn:
         "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -78,7 +78,7 @@ const TeamSection: React.FC = () => {
       name: "Aadish Jadge",
       role: "(Executive Maneger)",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4bba001cc5400695/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/aadish jadge.png",
       linkedIn: "https://www.linkedin.com/in/aadishjagde/",
     },
     {
@@ -86,7 +86,7 @@ const TeamSection: React.FC = () => {
       name: "Gauri Makker",
       role: "(Executive Maneger)",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4bcc0019252cebb5/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/gauri makker.png",
       linkedIn: "http://linkedin.com/in/gauri-makker",
     },
     {
@@ -94,7 +94,7 @@ const TeamSection: React.FC = () => {
       name: "Riya Dixit",
       role: "(Executive Manager)",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4bed002165f4fbdc/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "images/team-members/riya dixit.jpg",
       linkedIn:
         "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app             ",
     },
