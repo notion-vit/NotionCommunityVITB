@@ -31,7 +31,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Personal Branding Workshop",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6d33003073fbe750/view?project=67cb1a5d0022c5a29d3c&mode=adminheight=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph1%20(2).JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -39,7 +39,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Personal Branding Workshop",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6d1d002ffaf633d2/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2%20(2).JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -47,7 +47,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "LinkedIn Profile Optimization",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6d16001f5ddd4296/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph3%20(1).JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -55,7 +55,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "LinkedIn Profile Optimization",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6d0e0022589136b6/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph5%20(2).JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -63,7 +63,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "LinkedIn Profile Optimization",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6d0500125480db68/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph6%20(2).JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -71,7 +71,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "LinkedIn Profile Optimization",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6cf0002af770abcc/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph7%20(1).JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -79,7 +79,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "LinkedIn Profile Optimization",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6ce80008a879fee5/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/grouppic.jpeg?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
     {
@@ -87,7 +87,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "LinkedIn Profile Optimization",
       category: "Build Your Brand",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6cf7002296b4b8f5/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph8.JPG?raw=true?height=400&width=600",
       date: "October 1, 2024",
     },
 
@@ -97,7 +97,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb72470025bd77c5d5/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/DSC_0316%5B1%5D%20(1).JPG?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -105,7 +105,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb7256003d9e9355c0/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/WhatsApp%20Image%202025-03-25%20at%2000.11.18%20(1).jpeg?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -113,7 +113,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb726b0024b9d66b8b/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph1.JPG?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -121,7 +121,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb70e8000c75c91c47/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2.JPG?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -129,7 +129,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb728c001fe9349fbe/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph4.JPG?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -137,7 +137,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb7280000f13ef280f/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph5.JPG?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -145,7 +145,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb729c00392751fa07/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph8.png?raw=true?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
       date: "August 12, 2024",
     },
     {
@@ -153,7 +153,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Tech Innovation Summit",
       category: "Zenith",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb739700050cad7c6a/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2%20(3).JPG?raw=true?height=400&width=600",
       date: "August 12, 2024",
     },
     // {
@@ -170,7 +170,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb70ad001b044baedc/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph1%20(1).JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -178,7 +178,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb70be002145d6436a/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2%20(1).JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -186,7 +186,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb70ca00177483eb50/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph3.JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -194,7 +194,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb70e8000c75c91c47/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph4%20(1).JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -202,7 +202,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb71020033fb7f0c95/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph6%20(1).JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -210,7 +210,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb710e00267fa3a490/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph5%20(1).JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -218,7 +218,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb71180005ceeaa723/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+      "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph7.JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -226,7 +226,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb712100093d926143/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/WhatsApp%20Image%202025-03-25%20at%2000.11.18.jpeg?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
 
@@ -243,7 +243,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e0b002a43098abb/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph1%20(3).JPG?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -251,7 +251,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e14000e102aa528/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2%20(3).JPG?raw=true&mode=admin?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -259,7 +259,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e1e0024ba412726/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2%20(4).JPG?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -267,7 +267,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e2a00207795d01c/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph3%20(2).JPG?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -275,7 +275,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e3b000771a5011f/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph5%20(3).JPG?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -283,7 +283,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e480027dccb3676/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph6%20(3).JPG?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -291,7 +291,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e5c0030b0f707b0/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph7%20(2).jpg?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
     {
@@ -299,7 +299,15 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Development Workshop",
       category: "Evolve",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6e5200031588d3c0/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/WhatsApp%20Image%202025-03-25%20at%2000.20.51.jpeg?raw=true?height=400&width=600",
+      date: "February 23, 2024",
+    },
+    {
+      id: 47,
+      title: "Development Workshop",
+      category: "Evolve",
+      image:
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph9%20(2).jpg?raw=true?height=400&width=600",
       date: "February 23, 2024",
     },
 
@@ -309,7 +317,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f2d000293995e6a/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph1%20(4).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -317,7 +325,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f36001c7bedf7a4/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph2%20(4).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -325,7 +333,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f4000018d8b17c6/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph3%20(3).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -333,7 +341,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f4900065994cb34/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph4%20(1).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -341,7 +349,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f5600096efbd752/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph4%20(2).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -349,7 +357,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f5f0009c1bdbade/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph6%20(4).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -357,7 +365,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f69003e57177716/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph6.JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -365,7 +373,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f7a0023e44abec4/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph9%20(1).JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
     {
@@ -373,7 +381,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Entrepreneurial Hustle",
       category: "Hustle 23",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb6f8f0029c4025d20/view?project=67cb1a5d0022c5a29d3c&mode=admin?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph10.JPG?raw=true?height=400&width=600",
       date: "December 13, 2023",
     },
   ]
@@ -410,7 +418,7 @@ const PhotoGalleryPage: React.FC = () => {
             <img
               src={photo.image || "/placeholder.svg"}
               alt={photo.title}
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-end">
               <div className="p-3 w-full text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
