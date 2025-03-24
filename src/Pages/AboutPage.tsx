@@ -60,12 +60,12 @@ const AboutPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col items-center justify-center h-screen space-y-8">
               <img
-                src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4ef000378337629a/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+                src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/img5.png?raw=true"
                 alt="Students working together"
                 className="w-full max-w-md h-auto rounded-lg p-4"
               />
               <img
-                src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb50760012f5d0103f/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+                src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/sitting-man.png?raw=true"
                 alt="Students collaborating"
                 className="w-full max-w-md h-auto rounded-lg p-4"
               />

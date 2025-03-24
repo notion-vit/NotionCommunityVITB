@@ -177,7 +177,7 @@ const FAQPage: React.FC = () => {
               <h2 className="text-4xl font-bold mb-4 inter">Questions</h2>
               <p className="text-xl mb-6 inter">Reach out</p>
               <img
-                src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb63cf002b66851913/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+                src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/img-removebg-preview.png?raw=true"
                 alt="Person with questions"
                 className="w-full max-w-xs"
               />

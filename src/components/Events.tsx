@@ -34,7 +34,7 @@ const Events: React.FC = () => {
       longDescription:
         "Attended by over 180 students, the 'Build Your Brand Program' on November 26th introduced new students to personal branding. The speakers, Abhishek Kumar (founder of Notion Club) and Rishav Mishra (President of Notion Club) emphasized social media and AI tool usage for personal branding. A quiz on startups and AI further reinforced the concepts. The event empowered students with practical tips to build a strong professional image.",
       image:
-        "images/2.jpg",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/2.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.8/5", text: "Event Rating @Luma" },
@@ -49,7 +49,7 @@ const Events: React.FC = () => {
       longDescription:
         "This event, attended by over 200 students, included a hackathon, followed by a talk from Shivansh Garg on marketing, startups, and finance. The event concluded with a hands-on Notion workshop, ensuring students left with valuable knowledge and tools to boost their productivity.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb33a10026802a0fe4/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/3.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.0/5", text: "Event Rating @Luma" },
@@ -64,7 +64,7 @@ const Events: React.FC = () => {
       longDescription:
         "On 3rd May, the Notion Community Club hosted Innovision, a highly anticipated technical event attended by over 189 students. The event featured keynote addresses by Dr. Gajendra Purohit and Soumen Banerjee, focusing on academic growth, entrepreneurship, and startups.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb768b0035c6ba5893/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/3%20(1).jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.3/5", text: "Event Rating @Luma" },
@@ -79,7 +79,7 @@ const Events: React.FC = () => {
       longDescription:
         "Held as part of ADVITYA 2024, this technical event attracted over 207 participants and featured guest speakers sharing career insights. The event concluded with a quiz and cash prizes for the winners, making it an engaging experience.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb7692002af9e31f61/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/5.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.8/5", text: "Event Rating @Luma" },
@@ -94,7 +94,7 @@ const Events: React.FC = () => {
       longDescription:
         "An educational event with Mr. Prince Sharma on boosting productivity using Notion, followed by poetry and comedy entertainment. This session provided students with valuable insights into Notion's features, combined with entertainment for a memorable experience.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb769a0023c52c8628/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/6.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.2/5", text: "Event Rating @Luma" },
@@ -109,7 +109,7 @@ const Events: React.FC = () => {
       longDescription:
         "A quiz competition on AI, technology, and startups, followed by a live concert and cash prizes for winners in December 2023.Conducted via Mentimeter, the event was a fun blend of quizzes and entertainment, attracting a lively audience.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb76a100152baccf3c/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/7.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "5/5", text: "Event Rating @Luma" },
@@ -124,7 +124,7 @@ const Events: React.FC = () => {
       longDescription:
         "Participants explored AI tools, including ChatGPT prompts, and winners received cash prizes and Notion goodies.A trivia challenge combining AI, technology, and entrepreneurship, attended by over 300 participants with quizzes and live challenges.",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb76a9000b0478e938/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/8.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.9/5", text: "Event Rating @Luma" },

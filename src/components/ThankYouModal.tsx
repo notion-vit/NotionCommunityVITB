@@ -16,7 +16,7 @@ const ThankYouModal: React.FC<ThankYouModalProps> = ({ isOpen, onClose, message 
       <div className="py-6">
         <div className="mb-6 text-center">
           <img
-            src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb744a003d5f2e06bb/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+            src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/trial1.png?raw=true"
             alt="Thank you illustration"
             className="w-32 h-32 mx-auto"
           />

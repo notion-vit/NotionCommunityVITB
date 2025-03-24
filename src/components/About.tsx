@@ -34,7 +34,7 @@ const About: React.FC = () => {
         </div>
         <div className="md:w-1/5 ml-auto">
           <img
-            src="assets\about_us_img_for_main_page-removebg-preview.png?height=500&width=500"
+            src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/about_us_img_for_main_page-removebg-preview.png?raw=true?height=500&width=500"
             alt="Illustration"
             className="w-50 h-80"
           />

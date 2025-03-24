@@ -60,7 +60,7 @@ const SubmitPhotoModal: React.FC<SubmitPhotoModalProps> = ({ isOpen, onClose }) 
           <div className="p-8">
             <div className="flex flex-col items-center justify-center">
               <img
-                src="https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb744a003d5f2e06bb/view?project=67cb1a5d0022c5a29d3c&mode=admin"
+                src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/trial1.png?raw=true"
                 alt="Person drawing"
                 className="w-48 h-48 object-contain mb-6"
               />

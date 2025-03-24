@@ -47,7 +47,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
           <div className="logo z-50">
             <Link to="/" className="flex items-center">
               <img
-                src="assets\logo (2).png"
+                src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/logo%20(2).png?raw=true"
                 alt="Notion Community Logo"
                 className="h-12 md:h-14 w-auto" // Increased logo size
               />
