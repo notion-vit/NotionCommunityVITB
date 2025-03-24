@@ -45,7 +45,7 @@ const TeamPage: React.FC = () => {
       name: "Dr. G. Vishnuvarthanan",
       role: "Faculty Coordinator",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4a89001ac43cf4da/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/FacultyCoordinator%20(1).png?raw=true",
       linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
     },
     // {
@@ -114,7 +114,7 @@ const TeamPage: React.FC = () => {
       linkedIn: "http://linkedin.com/in/gauri-makker",
     },
     {
-      id: 5,
+      id: 4,
       name: "Vishal Ojha",
       role: "",
       image:
@@ -123,7 +123,7 @@ const TeamPage: React.FC = () => {
         "https://www.linkedin.com/in/vishalkumarojha/",
     },
     {
-      id: 4,
+      id: 5,
       name: "Riya Dixit",
       role: "Executive Manager",
       image:
@@ -715,13 +715,13 @@ const TeamPage: React.FC = () => {
           <h2 className="text-3xl font-medium inter text-center mb-2">Administrators</h2>
           <p className="text-center text-gray-600 mb-10">The leaders steering the community forward.</p>
 
-          <div className="flex flex-nowrap justify-center gap-6 w-full hide-scrollbar">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 lg:gap-8">
             {administrators.map((admin) => (
               <div
                 key={admin.id}
-                className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden w-64 transition-all duration-300 hover:scale-110 hover:shadow-xl hover:z-10"
+                className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden w-full max-w-xs mx-auto transition-all duration-300 hover:scale-105 hover:shadow-xl hover:z-10"
               >
-                <div className="h-64 overflow-hidden relative">
+                <div className="h-48 sm:h-56 md:h-64 overflow-hidden relative">
                   {loadingImages[`admin-${admin.id}`] !== false && (
                     <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
                       <img
@@ -734,7 +734,7 @@ const TeamPage: React.FC = () => {
                   <img
                     src={admin.image || "/placeholder.svg"}
                     alt={admin.name}
-                    className="w-full h-full object-contain transition-all duration-300"
+                    className="w-full h-full object-cover object-center transition-all duration-300"
                     onLoad={() => handleImageLoad(`admin-${admin.id}`)}
                     onError={() => handleImageError(`admin-${admin.id}`)}
                     style={{ opacity: loadingImages[`admin-${admin.id}`] === false ? 1 : 0 }}
@@ -742,7 +742,7 @@ const TeamPage: React.FC = () => {
                 </div>
                 <div className="p-4 text-center">
                   <h4 className="text-lg font-medium">{admin.name}</h4>
-                  <p className="text-gray-600">({admin.role})</p>
+                  <p className="text-gray-600">{admin.role}</p>
                   <div className="flex justify-center mt-2">
                     <a href={admin.linkedIn} target="_blank" rel="noopener noreferrer" className="text-blue-600">
                       <Linkedin size={24} />

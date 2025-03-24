@@ -20,7 +20,7 @@ const TeamSection: React.FC = () => {
       name: "Dr. G. Vishnuvarthanan",
       role: "Faculty Coordinator",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4a89001ac43cf4da/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/FacultyCoordinator%20(1).png?raw=true",
       linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
     },
     // {
