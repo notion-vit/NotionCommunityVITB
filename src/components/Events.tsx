@@ -23,6 +23,23 @@ const Events: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
   const [slideDirection, setSlideDirection] = useState<"left" | "right">("right")
+  // Add loadingImages state
+  const [loadingImages, setLoadingImages] = useState<Record<string, boolean>>({})
+
+  // Add image loading handlers
+  const handleImageLoad = (id: string) => {
+    setLoadingImages((prev) => ({
+      ...prev,
+      [id]: false,
+    }))
+  }
+
+  const handleImageError = (id: string) => {
+    setLoadingImages((prev) => ({
+      ...prev,
+      [id]: false,
+    }))
+  }
 
   const events: Event[] = [
     {
@@ -33,8 +50,7 @@ const Events: React.FC = () => {
         "Build your Brand with Abhishek Kumar and Rishav Mishra drew 300+ Luna registrations, offering tips on LinkedIn optimization, networking, and branding.",
       longDescription:
         "Attended by over 180 students, the 'Build Your Brand Program' on November 26th introduced new students to personal branding. The speakers, Abhishek Kumar (founder of Notion Club) and Rishav Mishra (President of Notion Club) emphasized social media and AI tool usage for personal branding. A quiz on startups and AI further reinforced the concepts. The event empowered students with practical tips to build a strong professional image.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/2.jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/2.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.8/5", text: "Event Rating @Luma" },
@@ -48,8 +64,7 @@ const Events: React.FC = () => {
         "This event, attended by over 200 students, included a hackathon, followed by a talk from Shivansh Garg on marketing, startups, and finance. The event concluded with a hands-on Notion workshop, ensuring students left with valuable knowledge and tools to boost their productivity.",
       longDescription:
         "This event, attended by over 200 students, included a hackathon, followed by a talk from Shivansh Garg on marketing, startups, and finance. The event concluded with a hands-on Notion workshop, ensuring students left with valuable knowledge and tools to boost their productivity.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/3.jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/3.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.0/5", text: "Event Rating @Luma" },
@@ -63,8 +78,7 @@ const Events: React.FC = () => {
         "On 3rd May, the Notion Community Club hosted Innovision, a highly anticipated technical event attended by over 189 students. The event featured keynote addresses by Dr. Gajendra Purohit and Soumen Banerjee, focusing on academic growth, entrepreneurship, and startups.",
       longDescription:
         "On 3rd May, the Notion Community Club hosted Innovision, a highly anticipated technical event attended by over 189 students. The event featured keynote addresses by Dr. Gajendra Purohit and Soumen Banerjee, focusing on academic growth, entrepreneurship, and startups.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/3%20(1).jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/3%20(1).jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.3/5", text: "Event Rating @Luma" },
@@ -78,8 +92,7 @@ const Events: React.FC = () => {
         "Held as part of ADVITYA 2024, this technical event attracted over 207 participants and featured guest speakers sharing career insights.",
       longDescription:
         "Held as part of ADVITYA 2024, this technical event attracted over 207 participants and featured guest speakers sharing career insights. The event concluded with a quiz and cash prizes for the winners, making it an engaging experience.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/5.jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/5.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.8/5", text: "Event Rating @Luma" },
@@ -93,8 +106,7 @@ const Events: React.FC = () => {
         "An educational event with Mr. Prince Sharma on boosting productivity using Notion, followed by poetry and comedy entertainment.",
       longDescription:
         "An educational event with Mr. Prince Sharma on boosting productivity using Notion, followed by poetry and comedy entertainment. This session provided students with valuable insights into Notion's features, combined with entertainment for a memorable experience.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/6.jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/6.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.2/5", text: "Event Rating @Luma" },
@@ -108,8 +120,7 @@ const Events: React.FC = () => {
         "A quiz competition on AI, technology, and startups, followed by a live concert and cash prizes for winners in December 2023. Conducted via Mentimeter, the event was a fun blend of quizzes and entertainment, attracting a lively audience.",
       longDescription:
         "A quiz competition on AI, technology, and startups, followed by a live concert and cash prizes for winners in December 2023.Conducted via Mentimeter, the event was a fun blend of quizzes and entertainment, attracting a lively audience.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/7.jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/7.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "5/5", text: "Event Rating @Luma" },
@@ -123,8 +134,7 @@ const Events: React.FC = () => {
         "A trivia challenge combining AI, technology, and entrepreneurship, attended by over 300 participants with quizzes and live challenges.",
       longDescription:
         "Participants explored AI tools, including ChatGPT prompts, and winners received cash prizes and Notion goodies.A trivia challenge combining AI, technology, and entrepreneurship, attended by over 300 participants with quizzes and live challenges.",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/8.jpg?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/8.jpg?raw=true",
       stats: {
         left: { number: "500+", text: "Community Members" },
         right: { number: "4.9/5", text: "Event Rating @Luma" },
@@ -153,7 +163,6 @@ const Events: React.FC = () => {
   }
 
   const currentEvent = events[currentIndex]
-
   if (selectedEvent) {
     return (
       <section className="py-16 px-6 md:px-12 lg:px-24 relative">
@@ -161,10 +170,23 @@ const Events: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-start">
             <div className="relative overflow-hidden rounded-lg">
+              {loadingImages[`selected-${selectedEvent.id}`] !== false && (
+                <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                  <img
+                    src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                    alt="Loading"
+                    className="w-16 h-16 animate-pulse"
+                  />
+                </div>
+              )}
               <img
                 src={selectedEvent.image || "/placeholder.svg"}
                 alt={selectedEvent.title}
-                className="w-full h-auto object-contain"
+                className={`w-full h-auto object-contain ${
+                  loadingImages[`selected-${selectedEvent.id}`] === false ? "image" : "image-loading"
+                }`}
+                onLoad={() => handleImageLoad(`selected-${selectedEvent.id}`)}
+                onError={() => handleImageError(`selected-${selectedEvent.id}`)}
               />
               {selectedEvent.stats && (
                 <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between text-white bg-gradient-to-t from-black/50 to-transparent">
@@ -235,10 +257,22 @@ const Events: React.FC = () => {
               }`}
             >
               <div className="relative rounded-lg overflow-hidden bg-white">
+                {loadingImages[`event-${currentEvent.id}`] !== false && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                    <img
+                      src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                      alt="Loading"
+                      className="w-16 h-16 animate-pulse"
+                    />
+                  </div>
+                )}
                 <img
                   src={currentEvent.image || "/placeholder.svg"}
                   alt={currentEvent.title}
                   className="w-full h-auto object-contain"
+                  onLoad={() => handleImageLoad(`event-${currentEvent.id}`)}
+                  onError={() => handleImageError(`event-${currentEvent.id}`)}
+                  style={{ opacity: loadingImages[`event-${currentEvent.id}`] === false ? 1 : 0 }}
                 />
                 {currentEvent.stats && (
                   <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between text-white bg-gradient-to-t from-black/50 to-transparent">

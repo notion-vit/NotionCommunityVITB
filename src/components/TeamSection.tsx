@@ -68,8 +68,7 @@ const TeamSection: React.FC = () => {
       id: 1,
       name: "Saniya Saw",
       role: "(Secretary)",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saniya.png?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saniya.png?raw=true",
       linkedIn:
         "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -90,13 +89,22 @@ const TeamSection: React.FC = () => {
       linkedIn: "http://linkedin.com/in/gauri-makker",
     },
     {
-      id: 4,
+      id: 5,
+      name: "Vishal Ojha",
+      role: "",
+      image:
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/profile-pic-removebg-preview.png?raw=true",
+      linkedIn:
+        "https://www.linkedin.com/in/vishalkumarojha/",
+    },
+    {
+      id: 5,
       name: "Riya Dixit",
       role: "(Executive Manager)",
       image:
         "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/riya%20dixit.jpg?raw=true",
       linkedIn:
-        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app             ",
+        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ]
 
@@ -183,7 +191,7 @@ const TeamSection: React.FC = () => {
         {/* <p className="text-sm text-gray-600 max-w-2xl mx-auto pb-4" text-center>
          The leaders steering the community forward
         </p> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
           {administrators.map((admin) => (
             <div
               key={admin.id}

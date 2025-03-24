@@ -22,6 +22,21 @@ interface TeamCategory {
 const TeamPage: React.FC = () => {
   const [activeTeam, setActiveTeam] = useState<string>("tech")
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [loadingImages, setLoadingImages] = useState<Record<string, boolean>>({})
+
+  const handleImageLoad = (id: string) => {
+    setLoadingImages((prev) => ({
+      ...prev,
+      [id]: false,
+    }))
+  }
+
+  const handleImageError = (id: string) => {
+    setLoadingImages((prev) => ({
+      ...prev,
+      [id]: false,
+    }))
+  }
 
   // Faculty Coordinators
   const facultyCoordinators: TeamMember[] = [
@@ -78,8 +93,7 @@ const TeamPage: React.FC = () => {
       id: 1,
       name: "Saniya Saw",
       role: "Secretary",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saniya.png?raw=true",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saniya.png?raw=true",
       linkedIn:
         "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -100,13 +114,22 @@ const TeamPage: React.FC = () => {
       linkedIn: "http://linkedin.com/in/gauri-makker",
     },
     {
+      id: 5,
+      name: "Vishal Ojha",
+      role: "",
+      image:
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/profile-pic-removebg-preview.png?raw=true",
+      linkedIn:
+        "https://www.linkedin.com/in/vishalkumarojha/",
+    },
+    {
       id: 4,
       name: "Riya Dixit",
       role: "Executive Manager",
       image:
         "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/riya%20dixit.jpg?raw=true",
       linkedIn:
-        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app             ",
+        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     
   ]
@@ -148,7 +171,7 @@ const TeamPage: React.FC = () => {
           role: "Senior Associate",
           image:
             "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/SparshKhatwani_techteam%20-%20Sparsh%20Khatwani%2023bce10090.jpg?raw=true?height=300&width=300",
-            // image not stored in the images folder so leaving it in appwrite link itself
+          // image not stored in the images folder so leaving it in appwrite link itself
           linkedIn: "https://www.linkedin.com/in/sparshkhatwani",
         },
         {
@@ -157,7 +180,7 @@ const TeamPage: React.FC = () => {
           role: "Senior Associate",
           image:
             "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Nikhil_Hegde_tech_team%20-%20NIKHIL%20ANANT%20HEGDE%2024BCE10223.jpg?raw=true?height=300&width=300",
-            // same issue
+          // same issue
           linkedIn: "http://www.linkedin.com/in/nikhil-hegde-897b59328",
         },
         {
@@ -166,7 +189,7 @@ const TeamPage: React.FC = () => {
           role: "Junior Associates",
           image:
             "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/kalyaneedeshmukh_techteam%20-%20KALYANEE%20DESHMUKH%2024BAC10046.jpg?raw=true?height=300&width=300",
-            // same issue
+          // same issue
           linkedIn:
             "https://www.linkedin.com/in/kalyanee-deshmukh-9b3798339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
@@ -205,8 +228,7 @@ const TeamPage: React.FC = () => {
           id: 4,
           name: "Prerna",
           role: "Senior Associate",
-          image:
-            "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/prerna.png?raw=true",
+          image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/prerna.png?raw=true",
           linkedIn: "www.linkedin.com/in/prerna-singh-7b40792a2",
         },
         {
@@ -356,8 +378,7 @@ const TeamPage: React.FC = () => {
           id: 6,
           name: "Anamika",
           role: "Senior Associate",
-          image:
-            "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/anamika.png?raw=true",
+          image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/anamika.png?raw=true",
           linkedIn:
             "https://www.linkedin.com/in/niharika-pandey-4335132b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
@@ -537,8 +558,7 @@ const TeamPage: React.FC = () => {
           id: 1,
           name: "Vartika Tiwari",
           role: "Lead",
-          image:
-            "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/vartika.jpg?raw=true",
+          image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/vartika.jpg?raw=true",
           linkedIn: "https://www.linkedin.com/in/vartika-tiwari-1a97b8289",
         },
         {
@@ -613,11 +633,23 @@ const TeamPage: React.FC = () => {
                 key={faculty.id}
                 className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden w-64 transition-all duration-300 hover:scale-110 hover:shadow-xl hover:z-10"
               >
-                <div className="h-64 overflow-hidden">
+                <div className="h-64 overflow-hidden relative">
+                  {loadingImages[`faculty-${faculty.id}`] !== false && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                      <img
+                        src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                        alt="Loading"
+                        className="w-16 h-16 animate-pulse"
+                      />
+                    </div>
+                  )}
                   <img
                     src={faculty.image || "/placeholder.svg"}
                     alt={faculty.name}
                     className="w-full h-full object-contain transition-all duration-300"
+                    onLoad={() => handleImageLoad(`faculty-${faculty.id}`)}
+                    onError={() => handleImageError(`faculty-${faculty.id}`)}
+                    style={{ opacity: loadingImages[`faculty-${faculty.id}`] === false ? 1 : 0 }}
                   />
                 </div>
                 <div className="p-4 text-center">
@@ -645,11 +677,23 @@ const TeamPage: React.FC = () => {
                 key={member.id}
                 className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden w-64 transition-all duration-300 hover:scale-110 hover:shadow-xl hover:z-10"
               >
-                <div className="h-64 overflow-hidden">
+                <div className="h-64 overflow-hidden relative">
+                  {loadingImages[`board-${member.id}`] !== false && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                      <img
+                        src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                        alt="Loading"
+                        className="w-16 h-16 animate-pulse"
+                      />
+                    </div>
+                  )}
                   <img
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
                     className="w-full h-full object-contain transition-all duration-300"
+                    onLoad={() => handleImageLoad(`board-${member.id}`)}
+                    onError={() => handleImageError(`board-${member.id}`)}
+                    style={{ opacity: loadingImages[`board-${member.id}`] === false ? 1 : 0 }}
                   />
                 </div>
                 <div className="p-4 text-center">
@@ -671,17 +715,29 @@ const TeamPage: React.FC = () => {
           <h2 className="text-3xl font-medium inter text-center mb-2">Administrators</h2>
           <p className="text-center text-gray-600 mb-10">The leaders steering the community forward.</p>
 
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="flex flex-nowrap justify-center gap-6 w-full hide-scrollbar">
             {administrators.map((admin) => (
               <div
                 key={admin.id}
                 className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden w-64 transition-all duration-300 hover:scale-110 hover:shadow-xl hover:z-10"
               >
-                <div className="h-64 overflow-hidden">
+                <div className="h-64 overflow-hidden relative">
+                  {loadingImages[`admin-${admin.id}`] !== false && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                      <img
+                        src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                        alt="Loading"
+                        className="w-16 h-16 animate-pulse"
+                      />
+                    </div>
+                  )}
                   <img
                     src={admin.image || "/placeholder.svg"}
                     alt={admin.name}
                     className="w-full h-full object-contain transition-all duration-300"
+                    onLoad={() => handleImageLoad(`admin-${admin.id}`)}
+                    onError={() => handleImageError(`admin-${admin.id}`)}
+                    style={{ opacity: loadingImages[`admin-${admin.id}`] === false ? 1 : 0 }}
                   />
                 </div>
                 <div className="p-4 text-center">
@@ -706,17 +762,17 @@ const TeamPage: React.FC = () => {
               {teamCategories.map((team) => (
                 <button
                   key={team.id}
-                  className={`px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 transform hover:scale-105 ${activeTeam === team.id
+                  className={`px-4 py-2 rounded-full whitespace-nowrap transition-all duration-300 transform hover:scale-105 ${
+                    activeTeam === team.id
                       ? "bg-black text-white"
                       : "bg-white/80 backdrop-blur-sm text-black hover:bg-gray-100"
-                    } inter font-medium`}
+                  } inter font-medium`}
                   onClick={() => setActiveTeam(team.id)}
                 >
                   {team.name}
                 </button>
               ))}
             </nav>
-
           </div>
         </section>
 
@@ -727,11 +783,23 @@ const TeamPage: React.FC = () => {
                 key={member.id}
                 className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-110 hover:shadow-xl hover:z-10"
               >
-                <div className="h-64 overflow-hidden">
+                <div className="h-64 overflow-hidden relative">
+                  {loadingImages[`${activeTeam}-${member.id}`] !== false && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                      <img
+                        src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                        alt="Loading"
+                        className="w-16 h-16 animate-pulse"
+                      />
+                    </div>
+                  )}
                   <img
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
                     className="w-full h-full object-contain transition-all duration-300"
+                    onLoad={() => handleImageLoad(`${activeTeam}-${member.id}`)}
+                    onError={() => handleImageError(`${activeTeam}-${member.id}`)}
+                    style={{ opacity: loadingImages[`${activeTeam}-${member.id}`] === false ? 1 : 0 }}
                   />
                 </div>
                 <div className="p-4 text-center">

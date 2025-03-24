@@ -17,6 +17,9 @@ const PhotoGalleryPage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState("All")
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
 
+  // Add loadingImages state
+  const [loadingImages, setLoadingImages] = useState<Record<string, boolean>>({})
+
   const photos: Photo[] = [
     // Build Your Brand
     // {
@@ -218,7 +221,7 @@ const PhotoGalleryPage: React.FC = () => {
       title: "Startup Event",
       category: "INNOVISION",
       image:
-      "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph7.JPG?raw=true?height=400&width=600",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/Event%20images/photograph7.JPG?raw=true?height=400&width=600",
       date: "May 3, 2024",
     },
     {
@@ -388,6 +391,21 @@ const PhotoGalleryPage: React.FC = () => {
 
   const filteredPhotos = activeCategory === "All" ? photos : photos.filter((photo) => photo.category === activeCategory)
 
+  // Add image loading handlers
+  const handleImageLoad = (id: string) => {
+    setLoadingImages((prev) => ({
+      ...prev,
+      [id]: false,
+    }))
+  }
+
+  const handleImageError = (id: string) => {
+    setLoadingImages((prev) => ({
+      ...prev,
+      [id]: false,
+    }))
+  }
+
   return (
     <div className="container mx-auto px-6 py-32 md:py-40">
       <h1 className="text-4xl font-bold mb-12 text-center">Photo Gallery</h1>
@@ -408,6 +426,7 @@ const PhotoGalleryPage: React.FC = () => {
         </div>
       </div>
 
+      {/* Modify the photo grid to include preloaders */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {filteredPhotos.map((photo) => (
           <div
@@ -415,10 +434,22 @@ const PhotoGalleryPage: React.FC = () => {
             className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 bg-white/20 backdrop-blur-sm"
             style={{ height: photo.id % 3 === 0 ? "300px" : "200px" }} // Varying heights for visual interest
           >
+            {loadingImages[`photo-${photo.id}`] !== false && (
+              <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/notion_vit_logo.jpg?raw=true"
+                  alt="Loading"
+                  className="w-16 h-16 animate-pulse"
+                />
+              </div>
+            )}
             <img
               src={photo.image || "/placeholder.svg"}
               alt={photo.title}
               className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+              onLoad={() => handleImageLoad(`photo-${photo.id}`)}
+              onError={() => handleImageError(`photo-${photo.id}`)}
+              style={{ opacity: loadingImages[`photo-${photo.id}`] === false ? 1 : 0 }}
             />
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-end">
               <div className="p-3 w-full text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
