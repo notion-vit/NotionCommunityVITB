@@ -269,7 +269,7 @@ const TeamPage: React.FC = () => {
           name: "Saurabh Sharma",
           role: "Lead",
           image:
-            "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saurabh%20(1).jpg?raw=true?height=300&width=300",
+            "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/IMG_20250325_090909.jpg?raw=true?height=300&width=300",
           linkedIn: "https://in.linkedin.com/in/its0saurabh",
         },
         {
