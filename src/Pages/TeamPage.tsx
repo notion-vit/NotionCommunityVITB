@@ -229,7 +229,7 @@ const TeamPage: React.FC = () => {
           name: "Prerna",
           role: "Senior Associate",
           image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/prerna.png?raw=true",
-          linkedIn: "www.linkedin.com/in/prerna-singh-7b40792a2",
+          linkedIn: "https://www.linkedin.com/in/prerna-singh-7b40792a2/",
         },
         {
           id: 5,
