@@ -19,7 +19,7 @@ const Hero: React.FC<HeroProps> = ({ isMenuOpen = false }) => {
         {/* Main illustration - student reading */}
         <div className="flex justify-center mb-6">
           <img
-            src="assets\treail03-removebg-preview.png"
+            src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/assets/treail03-removebg-preview.png?raw=true"
             alt="Student reading"
             className="w-111 h-120 md:w-92 md:h-102 object-contain"
           />

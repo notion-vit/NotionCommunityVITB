@@ -20,7 +20,7 @@ const TeamSection: React.FC = () => {
       name: "Dr. G. Vishnuvarthanan",
       role: "Faculty Coordinator",
       image:
-        "https://cloud.appwrite.io/v1/storage/buckets/67cb1acf001bdb8c4c45/files/67cb4a89001ac43cf4da/view?project=67cb1a5d0022c5a29d3c&mode=admin",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/FacultyCoordinator%20(1).png?raw=true",
       linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
     },
     // {
@@ -40,7 +40,7 @@ const TeamSection: React.FC = () => {
       name: "Rishav Mishra",
       role: "President",
       image:
-        "images/team-members/Rishav Mishra_23BHI10011_PR & Outreach - Rishav Ramnandan Mishra 23bhi10011.jpg",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/WhatsApp%20Image%202025-03-24%20at%2021.39.05.jpeg?raw=true",
       linkedIn: "https://www.linkedin.com/in/rishavmishra002",
     },
     {
@@ -48,7 +48,7 @@ const TeamSection: React.FC = () => {
       name: "Abhishek Kumar",
       role: "Founder",
       image:
-        "images/team-members/Abhishek Kumar _ Operations Team - Abhishek Kumar 23bhi10052.png",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/WhatsApp%20Image%202025-03-24%20at%2021.38.33.jpeg?raw=true",
       linkedIn: "https://www.linkedin.com/in/heyabhishekkumar/",
     },
     {
@@ -56,7 +56,7 @@ const TeamSection: React.FC = () => {
       name: "Tejus Gupta",
       role: "Vice-President",
       image:
-        "images/team-members/tejus.png",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/WhatsApp%20Image%202025-03-24%20at%2021.39.24.jpeg?raw=true",
       linkedIn:
         "https://www.linkedin.com/in/iamtejusgupta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -68,8 +68,7 @@ const TeamSection: React.FC = () => {
       id: 1,
       name: "Saniya Saw",
       role: "(Secretary)",
-      image:
-        "images/team-members/saniya.png",
+      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saniya.png?raw=true",
       linkedIn:
         "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
@@ -78,7 +77,7 @@ const TeamSection: React.FC = () => {
       name: "Aadish Jadge",
       role: "(Executive Maneger)",
       image:
-        "images/team-members/aadish jadge.png",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/aadish%20jadge.png?raw=true",
       linkedIn: "https://www.linkedin.com/in/aadishjagde/",
     },
     {
@@ -86,17 +85,26 @@ const TeamSection: React.FC = () => {
       name: "Gauri Makker",
       role: "(Executive Maneger)",
       image:
-        "images/team-members/gauri makker.png",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Gauri%20Makker%2023bce11131.jpeg?raw=true",
       linkedIn: "http://linkedin.com/in/gauri-makker",
     },
     {
-      id: 4,
+      id: 5,
+      name: "Vishal Ojha",
+      role: "",
+      image:
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/profile-pic-removebg-preview.png?raw=true",
+      linkedIn:
+        "https://www.linkedin.com/in/vishalkumarojha/",
+    },
+    {
+      id: 5,
       name: "Riya Dixit",
       role: "(Executive Manager)",
       image:
-        "images/team-members/riya dixit.jpg",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/riya%20dixit.jpg?raw=true",
       linkedIn:
-        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app             ",
+        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ]
 
@@ -183,7 +191,7 @@ const TeamSection: React.FC = () => {
         {/* <p className="text-sm text-gray-600 max-w-2xl mx-auto pb-4" text-center>
          The leaders steering the community forward
         </p> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
           {administrators.map((admin) => (
             <div
               key={admin.id}
