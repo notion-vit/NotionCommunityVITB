@@ -100,7 +100,7 @@ const TeamPage: React.FC = () => {
     {
       id: 2,
       name: "Aadish Jadge",
-      role: "Executive Maneger",
+      role: "Executive Manager",
       image:
         "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/aadish%20jadge.png?raw=true",
       linkedIn: "https://www.linkedin.com/in/aadishjagde/",
@@ -108,7 +108,7 @@ const TeamPage: React.FC = () => {
     {
       id: 3,
       name: "Gauri Makker",
-      role: "Executive Maneger",
+      role: "Executive Manager",
       image:
         "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Gauri%20Makker%2023bce11131.jpeg?raw=true",
       linkedIn: "http://linkedin.com/in/gauri-makker",
