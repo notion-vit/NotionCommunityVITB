@@ -13,8 +13,8 @@ interface Photo {
 }
 
 const PhotoGalleryPage: React.FC = () => {
-  const categories = ["All", "Build Your Brand", "Zenith", "INNOVISION", "Evolve", "Hustle 23"]
-  const [activeCategory, setActiveCategory] = useState("All")
+  const categories = ["Build Your Brand", "Zenith", "INNOVISION", "Evolve", "Hustle 23"]
+  const [activeCategory, setActiveCategory] = useState(categories[0])
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
 
   // Add loadingImages state
@@ -389,7 +389,8 @@ const PhotoGalleryPage: React.FC = () => {
     },
   ]
 
-  const filteredPhotos = activeCategory === "All" ? photos : photos.filter((photo) => photo.category === activeCategory)
+  // Filter photos based on active category
+  const filteredPhotos = photos.filter((photo) => photo.category === activeCategory)
 
   // Add image loading handlers
   const handleImageLoad = (id: string) => {
@@ -483,4 +484,3 @@ const PhotoGalleryPage: React.FC = () => {
 }
 
 export default PhotoGalleryPage
-
