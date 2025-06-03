@@ -55,7 +55,7 @@ const EventModal: React.FC<EventModalProps> = ({
         <div className="p-3 sm:p-5">
           <div className="aspect-[4/3] sm:aspect-[16/9] w-full overflow-hidden rounded-xl mb-4 sm:mb-6">
             <img
-              src="/images/event_popup.png"
+              src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/event_popup.png?raw=true"
               alt="Event Poster"
               className="w-full h-full object-cover"
             />
