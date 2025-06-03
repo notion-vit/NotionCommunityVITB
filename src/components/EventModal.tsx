@@ -4,14 +4,12 @@ import { X } from 'lucide-react';
 interface EventModalProps {
   isOpen: boolean;
   onClose: () => void;
-  eventPoster: string;
   registrationUrl: string;
 }
 
 const EventModal: React.FC<EventModalProps> = ({
   isOpen,
   onClose,
-  eventPoster,
   registrationUrl,
 }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -85,7 +83,7 @@ const EventModal: React.FC<EventModalProps> = ({
               Learn from real experiences. Ask your questions. Level up your dev game.
             </p>
             <a
-              href="https://unstop.com/o/hGuVyrW?lb=RfihYaz&utm_medium=Share&utm_source=shortUrl"
+              href={registrationUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full py-2.5 sm:py-3 px-4 sm:px-6 text-center bg-white text-black text-sm sm:text-base font-semibold rounded-lg hover:bg-gray-100 transition-colors"

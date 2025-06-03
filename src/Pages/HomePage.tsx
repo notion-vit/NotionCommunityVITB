@@ -35,8 +35,7 @@ const HomePage: React.FC<HomePageProps> = ({ isMenuOpen }) => {
       <EventModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}
-        eventPoster="/images/event_popup.png"
-        registrationUrl="https://unstop.com/o/EihKDQ4?lb=RfihYaz"
+        registrationUrl="https://unstop.com/o/hGuVyrW?lb=RfihYaz&utm_medium=Share&utm_source=shortUrl"
       />
     </div>
   )
