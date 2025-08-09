@@ -63,7 +63,7 @@ const EventModal: React.FC<EventModalProps> = ({
 
           <div className="space-y-3 sm:space-y-4">
             <h2 className="text-xl sm:text-2xl font-bold text-white">
-              🚀 Commit2Code | June 7–8
+              🚀 Commit2Code | June 7-8
             </h2>
             <p className="text-sm sm:text-base text-gray-300 line-clamp-2">
               Kickstart your journey into open source, GSoC, and freelancing with two days of expert sessions.
