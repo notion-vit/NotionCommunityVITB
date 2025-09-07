@@ -80,7 +80,7 @@ const EventModal: React.FC<EventModalProps> = ({
                 <span className="font-semibold text-white">🌐 Venue:</span> AB 420
               </p>
             </div>
-            {/*
+            {
             <a
               href={registrationUrl}
               target="_blank"
@@ -89,7 +89,7 @@ const EventModal: React.FC<EventModalProps> = ({
             >
               REGISTER NOW
             </a>
-            */}
+            }
           </div>
         </div>
       </div>

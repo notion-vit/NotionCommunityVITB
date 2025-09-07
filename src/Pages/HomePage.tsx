@@ -36,6 +36,7 @@ const HomePage: React.FC<HomePageProps> = ({ isMenuOpen }) => {
       <EventModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}
+        registrationUrl="https://lu.ma/v169sirk"
       />
       }
     </div>
