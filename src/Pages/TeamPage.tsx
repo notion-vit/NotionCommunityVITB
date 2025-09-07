@@ -130,9 +130,9 @@ const TeamPage: React.FC = () => {
       name: "Saniya Saw",
       role: "Treasurer",
       image:
-        "",
+        "/images/Saniya_saw.jpeg",
       linkedIn:
-        "",
+        "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ];
 
