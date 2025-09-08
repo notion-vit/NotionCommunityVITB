@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 
+
 interface EventModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -55,7 +56,7 @@ const EventModal: React.FC<EventModalProps> = ({
         <div className="p-3 sm:p-5">
           <div className="aspect-[4/3] sm:aspect-[16/9] w-full overflow-hidden rounded-xl mb-4 sm:mb-6">
             <img
-              src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/event_popup.png?raw=true"
+              src="/images/get_together.png"
               alt="Event Poster"
               className="w-full h-full object-cover"
             />
@@ -63,25 +64,23 @@ const EventModal: React.FC<EventModalProps> = ({
 
           <div className="space-y-3 sm:space-y-4">
             <h2 className="text-xl sm:text-2xl font-bold text-white">
-              🚀 Commit2Code | June 7–8
+              🚀 The Great Get Together
             </h2>
             <p className="text-sm sm:text-base text-gray-300 line-clamp-2">
-              Kickstart your journey into open source, GSoC, and freelancing with two days of expert sessions.
+              Highlights: Icebreakers, Bootcamp Battles, LinkedIn Intro Challenge, Tech Pictionary, Not-a-TED Talk, Memory Wall
             </p>
             <div className="space-y-1 sm:space-y-2 text-sm sm:text-base">
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🗓️ Date:</span> 7th and 8th June
+                <span className="font-semibold text-white">🗓️ Date:</span> 11th September
               </p>
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🕒 Time:</span> 3:00 PM IST
+                <span className="font-semibold text-white">🕒 Time:</span> 1:15 PM - 4:20 PM IST
               </p>
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🌐 Mode:</span> Online (Google Meet)
+                <span className="font-semibold text-white">🌐 Venue:</span> AB 420
               </p>
             </div>
-            <p className="text-sm text-gray-300 italic">
-              Learn from real experiences. Ask your questions. Level up your dev game.
-            </p>
+            {
             <a
               href={registrationUrl}
               target="_blank"
@@ -90,6 +89,7 @@ const EventModal: React.FC<EventModalProps> = ({
             >
               REGISTER NOW
             </a>
+            }
           </div>
         </div>
       </div>

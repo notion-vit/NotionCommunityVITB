@@ -32,11 +32,13 @@ const HomePage: React.FC<HomePageProps> = ({ isMenuOpen }) => {
       <Partners />
       <TeamSection />
       
+      {
       <EventModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}
-        registrationUrl="https://unstop.com/o/hGuVyrW?lb=RfihYaz&utm_medium=Share&utm_source=shortUrl"
+        registrationUrl="https://lu.ma/v169sirk"
       />
+      }
     </div>
   )
 }
