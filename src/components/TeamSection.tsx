@@ -17,11 +17,11 @@ const TeamSection: React.FC = () => {
   const facultyCoordinators: TeamMember[] = [
     {
       id: 1,
-      name: "Dr. G. Vishnuvarthanan",
+      name: "Dr. Jay Prakash",
       role: "Faculty Coordinator",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/FacultyCoordinator%20(1).png?raw=true",
-      linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
+        "/images/Jay_Prakash_Sir.jpeg",
+      linkedIn: "https://www.linkedin.com/in/jpeemaurya-6a105b17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     // {
     //   id: 2,
