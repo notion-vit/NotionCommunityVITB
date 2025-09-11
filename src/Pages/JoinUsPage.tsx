@@ -84,16 +84,7 @@ const JoinUsPage = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="bg-black rounded-2xl p-8 text-center text-white">
-          <h2 className="text-2xl font-bold mb-4">Not Sure Which Team to Join?</h2>
-          <p className="mb-6 max-w-2xl mx-auto opacity-90">
-            Contact us directly and we'll help you find the perfect fit based on your skills and interests.
-          </p>
-          <button className="bg-white text-black font-semibold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors">
-            Contact Us
-          </button>
-        </div>
+
       </div>
     </div>
   )
