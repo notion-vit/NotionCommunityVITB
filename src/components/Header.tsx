@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X, Home, Info, Users, Image, HelpCircle } from "lucide-react"
+import { Menu, X, Home, Info, Users, Image, HelpCircle, UserPlus } from "lucide-react"
 import { Link, useLocation } from "react-router-dom"
 
 interface HeaderProps {
@@ -67,6 +67,14 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
                 {link.label}
               </Link>
             ))}
+            {/* Join Us Button for Desktop */}
+            <Link
+              to="/join-us"
+              className="bg-black text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-gray-800 transition-colors"
+            >
+              <UserPlus size={18} />
+              <span>Join Us</span>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -84,4 +92,3 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
 }
 
 export default Header
-
