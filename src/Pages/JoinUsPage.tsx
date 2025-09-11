@@ -15,7 +15,7 @@ const JoinUsPage = () => {
   const navigate = useNavigate()
 
   const teams: Team[] = [
-    { name: "Tech Team", icon: Zap, description: "Development, coding, and technical solutions", path: "tech-team" },
+    { name: "Tech ", icon: Zap, description: "Development, coding, and technical solutions", path: "tech-team" },
     { name: "Outreach", icon: Users, description: "Community engagement and partnerships", path: "outreach" },
     { name: "Creative", icon: Palette, description: "Design, visuals, and creative direction", path: "creative" },
     { name: "Content", icon: PenTool, description: "Writing, blogging, and content creation", path: "content" },
