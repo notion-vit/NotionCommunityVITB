@@ -71,13 +71,13 @@ const EventModal: React.FC<EventModalProps> = ({
             </p>
             <div className="space-y-1 sm:space-y-2 text-sm sm:text-base">
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🗓️ Date:</span> 11th September
+                <span className="font-semibold text-white">🗓️ Date:</span> 18th September
               </p>
               <p className="text-gray-300">
                 <span className="font-semibold text-white">🕒 Time:</span> 1:15 PM - 4:20 PM IST
               </p>
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🌐 Venue:</span> AB 420
+                <span className="font-semibold text-white">🌐 Venue:</span> AB-2, 316
               </p>
             </div>
             {
