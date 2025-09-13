@@ -23,7 +23,7 @@ const JoinUsPage = () => {
     { name: "Anchoring", icon: Mic, description: "Hosting events and public speaking", path: "anchoring" },
     { name: "Operations", icon: Settings, description: "Logistics, planning, and management", path: "operations" },
     { name: "Corporate", icon: Briefcase, description: "Sponsorships and business relations", path: "corporate" },
-    { name: "Design", icon: Palette, description: "Visual design, UI/UX, and brand identity", path: "design" },
+
   ]
 
   const handleTeamClick = (teamPath: string) => {

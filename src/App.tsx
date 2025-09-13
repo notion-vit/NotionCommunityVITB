@@ -18,7 +18,7 @@ import {
   AnchoringForm,
   OperationsForm,
   CorporateForm,
-  DesignForm
+
 } from "./forms"
 import Footer from "./components/Footer"
 import BackgroundCanvas from "./components/BackgroundCanvas"
@@ -76,7 +76,7 @@ function AppContent() {
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/join-us" element={<JoinUsPage />} />
             {/* Team form routes */}
-            <Route path="/join-us/design" element={<DesignForm />} />
+         
             <Route path="/join-us/tech-team" element={<TechTeamForm />} />
             <Route path="/join-us/outreach" element={<OutreachForm />} />
             <Route path="/join-us/creative" element={<CreativeForm />} />
