@@ -56,7 +56,7 @@ const EventModal: React.FC<EventModalProps> = ({
         <div className="p-3 sm:p-5">
           <div className="aspect-[4/3] sm:aspect-[16/9] w-full overflow-hidden rounded-xl mb-4 sm:mb-6">
             <img
-              src="/images/get_together.png"
+              src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/get_together.png?raw=true "
               alt="Event Poster"
               className="w-full h-full object-cover"
             />
@@ -71,16 +71,16 @@ const EventModal: React.FC<EventModalProps> = ({
             </p>
             <div className="space-y-1 sm:space-y-2 text-sm sm:text-base">
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🗓️ Date:</span> 11th September
+                <span className="font-semibold text-white">🗓️ Date:</span> 18th September
               </p>
               <p className="text-gray-300">
                 <span className="font-semibold text-white">🕒 Time:</span> 1:15 PM - 4:20 PM IST
               </p>
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🌐 Venue:</span> AB 420
+                <span className="font-semibold text-white">🌐 Venue:</span> AB-2, 316
               </p>
             </div>
-            {/*
+            {
             <a
               href={registrationUrl}
               target="_blank"
@@ -89,7 +89,7 @@ const EventModal: React.FC<EventModalProps> = ({
             >
               REGISTER NOW
             </a>
-            */}
+            }
           </div>
         </div>
       </div>
