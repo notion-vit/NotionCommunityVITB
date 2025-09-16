@@ -17,11 +17,11 @@ const TeamSection: React.FC = () => {
   const facultyCoordinators: TeamMember[] = [
     {
       id: 1,
-      name: "Dr. G. Vishnuvarthanan",
+      name: "Dr. Jay Prakash",
       role: "Faculty Coordinator",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/FacultyCoordinator%20(1).png?raw=true",
-      linkedIn: "https://www.linkedin.com/company/notion_vit/posts/?feedView=all",
+        "/images/Jay_Prakash_Sir.jpeg",
+      linkedIn: "https://www.linkedin.com/in/jpeemaurya-6a105b17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     // {
     //   id: 2,
@@ -37,11 +37,11 @@ const TeamSection: React.FC = () => {
   const boardMembers: TeamMember[] = [
     {
       id: 1,
-      name: "Rishav Mishra",
-      role: "President",
+      name: "Gauri Makker",
+      role: "Precident",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/WhatsApp%20Image%202025-03-24%20at%2021.39.05.jpeg?raw=true",
-      linkedIn: "https://www.linkedin.com/in/rishavmishra002",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Gauri%20Makker%2023bce11131.jpeg?raw=true",
+      linkedIn: "http://linkedin.com/in/gauri-makker",
     },
     {
       id: 2,
@@ -52,13 +52,12 @@ const TeamSection: React.FC = () => {
       linkedIn: "https://www.linkedin.com/in/heyabhishekkumar/",
     },
     {
-      id: 3,
-      name: "Tejus Gupta",
+     id: 3,
+      name: "Anushka Dubey",
       role: "Vice-President",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/WhatsApp%20Image%202025-03-24%20at%2021.39.24.jpeg?raw=true",
-      linkedIn:
-        "https://www.linkedin.com/in/iamtejusgupta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Anushka%20Dubey%2023bce11492.jpg?raw=true",
+      linkedIn: "https://www.linkedin.com/in/anushka-dubey-7b4501215/",
     },
   ]
 
@@ -66,45 +65,46 @@ const TeamSection: React.FC = () => {
   const administrators: TeamMember[] = [
     {
       id: 1,
-      name: "Saniya Saw",
-      role: "(Secretary)",
-      image: "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/saniya.png?raw=true",
+      name: "Arnav Nehra",
+      role: "Secretary",
+      image:
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Arnav%20Nehra%2023bhi10014.png?raw=true",
       linkedIn:
-        "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/arnav-nehra-76bb2327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
       id: 2,
-      name: "Aadish Jadge",
-      role: "(Executive Manager)",
+      name: "Lokesh Bagade",
+      role: "Executive Manager",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/aadish%20jadge.png?raw=true",
-      linkedIn: "https://www.linkedin.com/in/aadishjagde/",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Lokesh%20Bhanudas%20Bagade%2023BCE11746.jpg?raw=true",
+      linkedIn:
+        "https://www.linkedin.com/in/lokeshbagade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 3,
-      name: "Gauri Makker",
-      role: "(Executive Manager)",
+      name: "Saurabh Sharma",
+      role: "Executive Manager",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Gauri%20Makker%2023bce11131.jpeg?raw=true",
-      linkedIn: "http://linkedin.com/in/gauri-makker",
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/IMG_20250325_090909.jpg?raw=true?height=300&width=300",
+      linkedIn: "https://in.linkedin.com/in/its0saurabh",
+    },
+    {
+      id: 4,
+      name: "Krishna Agrawal",
+      role: "Executive Manager",
+      image:
+        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Krishna%20Agrawal%2023mei10032.jpg?raw=true",
+      linkedIn: "https://www.linkedin.com/in/krishna-agrawal-147210280",
     },
     {
       id: 5,
-      name: "Vishal Ojha",
-      role: "",
+      name: "Saniya Saw",
+      role: "Treasurer",
       image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/profile-pic-removebg-preview.png?raw=true",
+        "/images/Saniya_saw.jpeg",
       linkedIn:
-        "https://www.linkedin.com/in/vishalkumarojha/",
-    },
-    {
-      id: 5,
-      name: "Riya Dixit",
-      role: "(Executive Manager)",
-      image:
-        "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/riya%20dixit.jpg?raw=true",
-      linkedIn:
-        "https://www.linkedin.com/in/riya-dixit-97415728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/saniya-saw-5b7817278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ]
 
