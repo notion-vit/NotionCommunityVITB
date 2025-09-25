@@ -38,7 +38,7 @@ const TeamSection: React.FC = () => {
     {
       id: 1,
       name: "Gauri Makker",
-      role: "Precident",
+      role: "President",
       image:
         "https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/team-members/Gauri%20Makker%2023bce11131.jpeg?raw=true",
       linkedIn: "http://linkedin.com/in/gauri-makker",
