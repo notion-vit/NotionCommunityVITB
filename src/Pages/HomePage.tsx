@@ -31,13 +31,17 @@ const HomePage: React.FC<HomePageProps> = ({ isMenuOpen }) => {
       <Speakers />
       <Partners />
       <TeamSection />
+      
+      
       <EventModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}
-        registrationUrl="https://lu.ma/v169sirk"
+        registrationUrl="https://www.notionvitbhopal.in/join-us"
       />
+      
     </div>
   )
 }
 
 export default HomePage
+

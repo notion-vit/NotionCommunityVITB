@@ -56,7 +56,7 @@ const EventModal: React.FC<EventModalProps> = ({
         <div className="p-3 sm:p-5">
           <div className="aspect-[4/3] sm:aspect-[16/9] w-full overflow-hidden rounded-xl mb-4 sm:mb-6">
             <img
-              src="https://github.com/notion-vit/NotionCommunityVITB/blob/main/images/get_together.png?raw=true"
+              src="https://raw.githubusercontent.com/notion-vit/NotionCommunityVITB/refs/heads/main/images/recruitment_poster.png"
               alt="Event Poster"
               className="w-full h-full object-cover"
             />
@@ -64,20 +64,23 @@ const EventModal: React.FC<EventModalProps> = ({
 
           <div className="space-y-3 sm:space-y-4">
             <h2 className="text-xl sm:text-2xl font-bold text-white">
-              🚀 The Great Get Together
+              ✨Notion Community Recruitment Drive✨
             </h2>
             <p className="text-sm sm:text-base text-gray-300 line-clamp-2">
-              Highlights: Icebreakers, Bootcamp Battles, LinkedIn Intro Challenge, Tech Pictionary, Not-a-TED Talk, Memory Wall
+              🚀 We Have a Spot For You! 🚀
             </p>
             <div className="space-y-1 sm:space-y-2 text-sm sm:text-base">
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🗓️ Date:</span> 18th September
+                <span className="font-semibold text-white">💻 Tech & Corporate Teams</span> 
               </p>
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🕒 Time:</span> 1:15 PM - 4:20 PM IST
+                <span className="font-semibold text-white">🎨 Creative & Media Teams</span> 
               </p>
               <p className="text-gray-300">
-                <span className="font-semibold text-white">🌐 Venue:</span> AB2 316
+                <span className="font-semibold text-white">✍️ Content & Anchoring Teams</span>
+              </p>
+              <p className="text-gray-300">
+                <span className="font-semibold text-white">📢 Outreach & Operations Teams</span> 
               </p>
             </div>
             {
@@ -87,9 +90,10 @@ const EventModal: React.FC<EventModalProps> = ({
               rel="noopener noreferrer"
               className="block w-full py-2.5 sm:py-3 px-4 sm:px-6 text-center bg-white text-black text-sm sm:text-base font-semibold rounded-lg hover:bg-gray-100 transition-colors"
             >
-              REGISTER NOW
+              JOIN NOW
             </a>
             }
+            
           </div>
         </div>
       </div>
